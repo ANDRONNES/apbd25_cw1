@@ -14,11 +14,17 @@ internal class Program
         Console.WriteLine("Hello, World!!!!!!!!");
         int[] ar = [1, 2, 3, 4, 5];
         ArraysAvg(ar);
+        ArraysMax(ar);
 }
     static void ArraysAvg(int[] ar1)
     {
         double avg = ar1.Average();
-        Console.Write(avg);
+        Console.WriteLine(avg);
+    }
+    static void ArraysMax(int[] ar1)
+    {
+        int max = ar1.Max();
+        Console.WriteLine(max);
     }
 
 }
