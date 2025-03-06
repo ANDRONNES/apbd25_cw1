@@ -16,14 +16,14 @@ internal class Program
         ArraysAvg(ar);
         ArraysMax(ar);
 }
-    static void ArraysAvg(int[] ar1)
+    static void ArraysAvg(int[] a)
     {
-        double avg = ar1.Average();
+        double avg = a.Average();
         Console.WriteLine(avg);
     }
-    static void ArraysMax(int[] ar1)
+    static void ArraysMax(int[] b)
     {
-        int max = ar1.Max();
+        int max = b.Max();
         Console.WriteLine(max);
     }
 
